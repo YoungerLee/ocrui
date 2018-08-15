@@ -37,13 +37,13 @@ Training recognition task:
 
 References
 ----------
-[Tian Z, Huang W, He T, et al. Detecting Text in Natural Image with Connectionist Text Proposal Network. 2016:56-72.](https://arxiv.org/abs/1609.03605)
+[Tian Z, Huang W, He T, et al. Detecting Text in Natural Image with Connectionist Text Proposal Network[J]. 2016:56-72.](https://arxiv.org/abs/1609.03605)
 
-[Shi B, Bai X, Yao C. An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2015, 39(11):2298-2304.](http://arxiv.org/abs/1507.05717)
+[Shi B, Bai X, Yao C. An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition[J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2015, 39(11):2298-2304.](http://arxiv.org/abs/1507.05717)
 
-[Howard A G, Zhu M, Chen B, et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. 2017.](https://arxiv.org/abs/1704.04861)
+[Howard A G, Zhu M, Chen B, et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications[7]. 2017.](https://arxiv.org/abs/1704.04861)
 
-[Sandler M, Howard A, Zhu M, et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks. 2018.](https://arxiv.org/abs/1801.04381)
+[Sandler M, Howard A, Zhu M, et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks[J]. 2018.](https://arxiv.org/abs/1801.04381)
 
 
 
