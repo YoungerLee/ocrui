@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2451</width>
+    <height>1843</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2441</width>
+      <height>1731</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab_app">
+     <attribute name="title">
+      <string>application</string>
+     </attribute>
+     <widget class="QLabel" name="image_show">
+      <property name="geometry">
+       <rect>
+        <x>989</x>
+        <y>174</y>
+        <width>1280</width>
+        <height>960</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="filePath">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>1378</y>
+        <width>1361</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="chooseFolder">
+      <property name="geometry">
+       <rect>
+        <x>1809</x>
+        <y>1380</y>
+        <width>271</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>choose folder</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="fileNameLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>197</y>
+        <width>159</width>
+        <height>54</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>filename:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="fileNameText">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>274</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="locationLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>351</y>
+        <width>147</width>
+        <height>54</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>location:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="locationText">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>428</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="resultLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>505</y>
+        <width>107</width>
+        <height>54</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>result:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="resultText">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>582</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="speedLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>659</y>
+        <width>112</width>
+        <height>54</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>speed:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="speedText">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>736</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="nextButton">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>856</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>next</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lastButton">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>946</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>last</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="saveResult">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>1040</y>
+        <width>591</width>
+        <height>63</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string>save</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_ft">
+     <attribute name="title">
+      <string>detection training</string>
+     </attribute>
+     <widget class="QTextEdit" name="log_output">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>1090</y>
+        <width>2311</width>
+        <height>571</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="MatplotlibWidget" name="detectLossView">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>40</y>
+        <width>1521</width>
+        <height>991</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>40</y>
+        <width>721</width>
+        <height>991</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="trainFileLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>train file:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLineEdit" name="trainFileEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="chooseTrainDirButton">
+           <property name="text">
+            <string>choose folder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pretrainCheckBox">
+         <property name="text">
+          <string>pretrained</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="batchSizeLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>batch size:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="bnSpinBox">
+         <property name="minimum">
+          <number>50</number>
+         </property>
+         <property name="maximum">
+          <number>300</number>
+         </property>
+         <property name="singleStep">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="optimizationLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>optimization:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="optComboBox">
+         <item>
+          <property name="text">
+           <string>Adam</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RMS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Momentum</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lrLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>learning rate:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="lrComboBox">
+         <item>
+          <property name="text">
+           <string>0.1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.01</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.001</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.0001</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.00001</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="snapShotLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>snapshot:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="snapSpinBox">
+         <property name="minimum">
+          <number>5</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="singleStep">
+          <number>5</number>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="outFileLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>output dir:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLineEdit" name="outFileEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="chooseOutputFolder">
+           <property name="text">
+            <string>choose folder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="beginButton">
+         <property name="text">
+          <string>begin</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="saveButton">
+         <property name="text">
+          <string>save</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>recognition training</string>
+     </attribute>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>701</width>
+        <height>1091</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="trainFileLabel_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>train file:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLineEdit" name="trainFileEdit_2"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="chooseTrainFileButton">
+           <property name="text">
+            <string>choose file</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="testFileLabel">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>test file:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLineEdit" name="testFileEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="chooseTestFileButton">
+           <property name="text">
+            <string>choose file</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pretrainCheckBox_2">
+         <property name="text">
+          <string>pretrained</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="batchSizeLabel_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>batch size:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="bnSpinBox_2">
+         <property name="minimum">
+          <number>50</number>
+         </property>
+         <property name="maximum">
+          <number>300</number>
+         </property>
+         <property name="singleStep">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="optimizationLabel_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>optimization:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="optComboBox_2">
+         <item>
+          <property name="text">
+           <string>Adam</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>RMS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Momentum</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lrLabel_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>learning rate:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="lrComboBox_2">
+         <item>
+          <property name="text">
+           <string>0.1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.01</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.001</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.0001</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.00001</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="snapShotLabel_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>snapshot:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="snapSpinBox_2">
+         <property name="minimum">
+          <number>5</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="singleStep">
+          <number>5</number>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="outFileLabel_2">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>output dir:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLineEdit" name="outFileEdit_2"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="chooseOutputFolder_2">
+           <property name="text">
+            <string>choose folder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="beginButton_2">
+         <property name="text">
+          <string>begin</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="saveButton_2">
+         <property name="text">
+          <string>save</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="MatplotlibWidget" name="recognizetLossView">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>30</y>
+        <width>1531</width>
+        <height>1071</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="log_output_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>1120</y>
+        <width>2281</width>
+        <height>541</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2451</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave_As"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actiontraining_parameters"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+  </action>
+  <action name="actiontraining_parameters">
+   <property name="text">
+    <string>training parameters</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MatplotlibWidget</class>
+   <extends>QGraphicsView</extends>
+   <header>Matplotlibwidget</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

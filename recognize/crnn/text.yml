@@ -1,0 +1,21 @@
+EXP_DIR: crnn_end2end
+LOG_DIR: crnn
+NET_NAME: MobilenetV2
+ALPHABET: 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-
+TRAIN:
+  restore: 0
+  max_steps: 100000
+  SOLVER: Adam
+  OHEM: False
+  BATCH_SIZE: 100
+  LOG_IMAGE_ITERS: 200
+  DISPLAY: 10
+  SNAPSHOT_ITERS: 100
+  LEARNING_RATE: 0.001
+  MOMENTUM: 0.9
+  GAMMA: 0.1
+  STEPSIZE: 30000
+  WEIGHT_DECAY: 0.00005
+TEST:
+  checkpoints_path: /home/deeple/project/crnn/checkpoints/mobilev2
+  # checkpoints_path: output/ctpn_end2end/voc_2007_trainval

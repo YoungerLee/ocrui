@@ -1,0 +1,15 @@
+__pycache__/
+*/__pycache__/
+cache/
+pretrain/
+VOCdevkit2007/
+logs/
+output/
+build/
+dist/
+.idea/
+*.py[cod]
+*.c[cod]
+*.so
+*.swp
+
