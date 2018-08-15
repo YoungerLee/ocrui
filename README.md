@@ -5,15 +5,15 @@ This software implements the optical character recognition of carved text on the
 
 Requirements
 ------------
-python3.5
-tensorflow_gpu==1.8.0
-PyQt==5.9.1
-opencv_python==3.4.1
-easydict==1.7
-numpy==1.14.0
-Cython==0.27.3
-Pillow==5.0.0
-PyYAML==3.12
+python3.5 \<br>
+tensorflow_gpu==1.8.0 \<br>
+PyQt==5.9.1 \<br>
+opencv_python==3.4.1 \<br>
+easydict==1.7 \<br>
+numpy==1.14.0 \<br>
+Cython==0.27.3 \<br>
+Pillow==5.0.0 \<br>
+PyYAML==3.12 \<br>
 
 
 Run software
@@ -37,9 +37,9 @@ Training recognition task:
 
 References
 ----------
-[Tian Z, Huang W, He T, et al. Detecting Text in Natural Image with Connectionist Text Proposal Network. 2016:56-72.](https://arxiv.org/abs/1609.03605)
-[Shi B, Bai X, Yao C. An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2015, 39(11):2298-2304.](http://arxiv.org/abs/1507.05717)
-[Howard A G, Zhu M, Chen B, et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. 2017.](https://arxiv.org/abs/1704.04861)
-[Sandler M, Howard A, Zhu M, et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks. 2018.](https://arxiv.org/abs/1801.04381)
+[Tian Z, Huang W, He T, et al. Detecting Text in Natural Image with Connectionist Text Proposal Network. 2016:56-72.](https://arxiv.org/abs/1609.03605) \<br> \<br>
+[Shi B, Bai X, Yao C. An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2015, 39(11):2298-2304.](http://arxiv.org/abs/1507.05717) \<br> \<br>
+[Howard A G, Zhu M, Chen B, et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. 2017.](https://arxiv.org/abs/1704.04861) \<br> \<br>
+[Sandler M, Howard A, Zhu M, et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks. 2018.](https://arxiv.org/abs/1801.04381) \<br> \<br>
 
 
